@@ -20,15 +20,20 @@ func TestRead(t *testing.T) {
 	kep, err := Read(f)
 	require.NoError(t, err)
 
+	lastUpdated := time.Date(2018, time.April, 24, 0, 0, 0, 0, time.UTC)
+
 	expected := &KEP{
-		Title:        "Graduate CustomResourceDefinitions to GA",
-		Authors:      []string{"@author1", "@author2"},
-		OwningSIG:    "sig-kep",
+		Title:     "Graduate CustomResourceDefinitions to GA",
+		Authors:   []string{"@author1", "@author2"},
+		OwningSIG: "sig-kep",
+		ParticipatingSIGs: []string{
+			"sig-alpha", "sig-beta",
+		},
 		Reviewers:    []string{"@reviewer1", "@reviewer2"},
 		Approvers:    []string{"@approver1", "@approver2"},
 		Editor:       "TBD",
 		CreationDate: time.Date(2018, time.April, 15, 0, 0, 0, 0, time.UTC),
-		LastUpdated:  time.Date(2018, time.April, 24, 0, 0, 0, 0, time.UTC),
+		LastUpdated:  &lastUpdated,
 		Status:       "provisional",
 		SeeAlso: []Link{
 			{Text: "link 1", URL: "http://example.com/1"},

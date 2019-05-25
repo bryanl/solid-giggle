@@ -2,6 +2,7 @@ package kep
 
 import (
 	"bufio"
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -21,18 +22,54 @@ type Link struct {
 type Links []Link
 
 type KEP struct {
-	Title             string
-	Authors           []string
-	OwningSIG         string `json:"owning-sig"`
-	ParticipatingSIGs []string
-	Reviewers         []string
-	Approvers         []string
-	Editor            string
-	CreationDate      time.Time
-	LastUpdated       time.Time
-	Status            string
-	SeeAlso           Links
-	Content           string
+	Title             string     `json:"title,omitempty"`
+	Authors           []string   `json:"authors,omitempty"`
+	OwningSIG         string     `json:"owning-sig,omitempty"`
+	ParticipatingSIGs []string   `json:"participating-sigs,omitempty"`
+	Reviewers         []string   `json:"reviewers,omitempty"`
+	Approvers         []string   `json:"approvers,omitempty"`
+	Editor            string     `json:"editor,omitempty"`
+	CreationDate      time.Time  `json:"creation-date,omitempty"`
+	LastUpdated       *time.Time `json:"last-updated,omitempty"`
+	Status            string     `json:"status,omitempty"`
+	SeeAlso           Links      `json:"see-also,omitempty"`
+	Content           string     `json:"-"`
+}
+
+func (k *KEP) String() (string, error) {
+	var buf bytes.Buffer
+
+	buf.WriteString(fmt.Sprintf("%s\n", sectionMarker))
+	data, err := yaml.Marshal(k)
+	if err != nil {
+		return "", err
+	}
+
+	buf.Write(data)
+	buf.WriteString(fmt.Sprintf("%s\n", sectionMarker))
+	buf.WriteString(k.Content)
+
+	return buf.String(), nil
+}
+
+func (k *KEP) MarshalJSON() ([]byte, error) {
+	type Alias KEP
+
+	creationDate := k.CreationDate.Format("2006-01-02")
+	var lastUpdated string
+	if k.LastUpdated != nil {
+		lastUpdated = k.LastUpdated.Format("2006-01-02")
+	}
+
+	return json.Marshal(&struct {
+		CreationDate string `json:"creation-date,omitempty"`
+		LastUpdated  string `json:"last-updated,omitempty"`
+		*Alias
+	}{
+		CreationDate: creationDate,
+		LastUpdated:  lastUpdated,
+		Alias:        (*Alias)(k),
+	})
 }
 
 func (k *KEP) UnmarshalJSON(b []byte) error {
@@ -93,7 +130,7 @@ func (k *KEP) UnmarshalJSON(b []byte) error {
 			return err
 		}
 
-		k.LastUpdated = lastUpdated
+		k.LastUpdated = &lastUpdated
 	}
 
 	for _, rawSeeAlso := range u.RawSeeAlso {
