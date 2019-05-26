@@ -1,10 +1,12 @@
-baseURL = "http://example.org/"
+baseURL = "https://keps.bryanl.dev/"
 languageCode = "en-us"
 title = "KEP Viewer"
 theme = "kep"
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+googleAnalytics = "UA-140853487-1"
 
 [menu]
   [[menu.main]]
