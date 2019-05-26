@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@prameshj'
 creation-date: "2019-04-24"
+date: "2019-04-24T00:00:00Z"
+draft: false
 last-updated: "2019-04-25"
 owning-sig: sig-network
 reviewers:
@@ -12,6 +14,8 @@ reviewers:
 - '@thockin'
 - '@johnbelamaric'
 status: implementable
+tags:
+- sig-network
 title: graduate-nodelocaldns-to-beta
 ---
 # Graduate NodeLocal DNSCache to beta

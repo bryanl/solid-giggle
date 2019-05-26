@@ -6,6 +6,8 @@ authors:
 - '@neolit123'
 - '@patricklang'
 creation-date: "2019-04-24"
+date: "2019-04-24T00:00:00Z"
+draft: false
 editor: '@ksubrmnn'
 last-updated: "2019-04-24"
 owning-sig: sig-windows
@@ -18,6 +20,8 @@ reviewers:
 - '@fabriziopandini'
 - '@rosti'
 status: implementable
+tags:
+- sig-windows
 title: kubeadm-for-windows
 ---
 # Kubeadm for Windows

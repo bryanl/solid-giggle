@@ -5,6 +5,8 @@ authors:
 - '@mlmhl'
 - '@wongma7'
 creation-date: "2019-01-25"
+date: "2019-01-25T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-01"
 owning-sig: sig-storage
@@ -14,6 +16,8 @@ reviewers:
 - '@gnufied'
 - '@jsafrane'
 status: implementable
+tags:
+- sig-storage
 title: Online Growing Persistent Volume Size
 ---
 # Online Growing Persistent Volume Size

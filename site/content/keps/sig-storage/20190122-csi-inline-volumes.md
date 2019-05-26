@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@vladimirvivien'
 creation-date: "2019-01-22"
+date: "2019-01-22T00:00:00Z"
+draft: false
 owning-sig: sig-storage
 participating-sigs:
 - sig-storage
@@ -13,6 +15,8 @@ reviewers:
 - '@jsafrane'
 - '@liggitt'
 status: implementable
+tags:
+- sig-storage
 title: Ephemeral Inline CSI Volumes
 ---
 # Ephemeral Inline CSI volumes

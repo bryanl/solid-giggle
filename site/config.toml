@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "KEP Viewer"
 theme = "kep"
 
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -11,7 +14,13 @@ theme = "kep"
     weight = 100
 
   [[menu.main]]
+    identifier = "tags"
+    name = "SIGs"
+    url = "/sigs/"
+    weight = 110
+
+  [[menu.main]]
     identifier = "keps"
     name = "KEPs"
     url = "/keps/"
-    weight = 110
+    weight = 120

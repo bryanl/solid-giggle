@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@sttts'
 creation-date: "2018-07-31"
+date: "2018-07-31T00:00:00Z"
+draft: false
 editor: '@sttts'
 last-updated: "2019-04-30"
 owning-sig: sig-api-machinery
@@ -18,6 +20,8 @@ reviewers:
 - '@mbohlool'
 - '@apelisse'
 status: implementable
+tags:
+- sig-api-machinery
 title: Pruning for Custom Resources
 ---
 # Pruning for Custom Resources

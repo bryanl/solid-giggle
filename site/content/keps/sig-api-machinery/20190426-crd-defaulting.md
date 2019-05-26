@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@sttts'
 creation-date: "2019-04-26"
+date: "2019-04-26T00:00:00Z"
+draft: false
 editor: '@sttts'
 last-updated: "2019-05-01"
 owning-sig: sig-api-machinery
@@ -17,6 +19,8 @@ reviewers:
 - '@mbohlool'
 - '@apelisse'
 status: implementable
+tags:
+- sig-api-machinery
 title: Defaulting for Custom Resources
 ---
 # Defaulting for Custom Resources

@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@liggitt'
 creation-date: "2019-03-19"
+date: "2019-03-19T00:00:00Z"
+draft: false
 last-updated: "2019-03-26"
 owning-sig: sig-architecture
 participating-sigs:
@@ -17,6 +19,8 @@ reviewers:
 - '@cblecker'
 - '@mattfarina'
 status: implementable
+tags:
+- sig-architecture
 title: go modules
 ---
 # go modules

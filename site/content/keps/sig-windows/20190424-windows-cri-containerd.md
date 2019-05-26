@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@patricklang'
 creation-date: "2019-04-24"
+date: "2019-04-24T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-24"
 owning-sig: sig-windows
@@ -14,6 +16,8 @@ reviewers:
 - '@derekwaynecarr'
 - '@tallclair'
 status: implementable
+tags:
+- sig-windows
 title: Supporting CRI-ContainerD on Windows
 ---
 # Supporting CRI-ContainerD on Windows

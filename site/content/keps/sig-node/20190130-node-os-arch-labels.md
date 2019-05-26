@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@yujuhong'
 creation-date: "2019-01-30"
+date: "2019-01-30T00:00:00Z"
+draft: false
 editor: Yu-Ju Hong
 last-updated: "2019-01-30"
 owning-sig: sig-node
@@ -12,6 +14,8 @@ participating-sigs:
 reviewers:
 - '@liggitt'
 status: implementable
+tags:
+- sig-node
 ---
 # Promote Node Operating System & Architecture labels to GA
 

@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@Huang-Wei'
 creation-date: "2019-02-21"
+date: "2019-02-21T00:00:00Z"
+draft: false
 last-updated: "2019-05-14"
 owning-sig: sig-scheduling
 reviewers:
@@ -12,6 +14,8 @@ reviewers:
 - '@lavalamp'
 - '@krmayankk'
 status: implementable
+tags:
+- sig-scheduling
 title: Even Pods Spreading
 ---
 # Even Pods Spreading

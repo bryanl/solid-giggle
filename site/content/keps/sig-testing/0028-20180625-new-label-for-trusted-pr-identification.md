@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@matthyx'
 creation-date: "2018-06-25"
+date: "2018-06-25T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-30"
 owning-sig: sig-testing
@@ -16,6 +18,8 @@ reviewers:
 - '@cblecker'
 - '@stevekuznetsov'
 status: implemented
+tags:
+- sig-testing
 title: New label for trusted PR identification
 ---
 # New label for trusted PR identification

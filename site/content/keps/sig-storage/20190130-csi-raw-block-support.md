@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@bswartz'
 creation-date: "2019-01-30"
+date: "2019-01-30T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-01"
 owning-sig: sig-storage
@@ -13,6 +15,8 @@ reviewers:
 - '@msau42'
 - '@saad-ali'
 status: implementable
+tags:
+- sig-storage
 title: CSI Raw Block Volumes
 ---
 # CSI Raw Block Volumes

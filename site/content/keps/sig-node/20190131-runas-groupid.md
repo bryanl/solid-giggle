@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@krmayankk'
 creation-date: "2017-06-21"
+date: "2017-06-21T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-14"
 owning-sig: sig-node
@@ -14,6 +16,8 @@ reviewers:
 - '@tallclair'
 - '@mrunalp'
 status: implementable
+tags:
+- sig-node
 title: RunAsGroup support in PodSpec and PodSecurityPolicy
 ---
 # RunAsGroup support in PodSpec and PodSecurityPolicy

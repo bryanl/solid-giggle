@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@andrewsykim'
 creation-date: "2018-06-06"
+date: "2018-06-06T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-11-16"
 owning-sig: sig-cloud-provider
@@ -19,6 +21,8 @@ participating-sigs:
 reviewers:
 - TBD
 status: implementable
+tags:
+- sig-cloud-provider
 title: Reporting Conformance Test Results to Testgrid
 ---
 # Reporting Conformance Test Results to Testgrid

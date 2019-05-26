@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@mtaufen'
 creation-date: "2019-01-29"
+date: "2019-01-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-02"
 owning-sig: sig-api-machinery
@@ -15,6 +17,8 @@ participating-sigs:
 reviewers:
 - '@kubernetes/wg-component-standard'
 status: provisional
+tags:
+- sig-api-machinery
 title: legacyflags
 ---
 # kflag

@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@smarterclayton'
 creation-date: "2019-03-22"
+date: "2019-03-22T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-03-22"
 owning-sig: sig-api-machinery
@@ -15,6 +17,8 @@ reviewers:
 - '@soltysh'
 - '@liggitt'
 status: implementable
+tags:
+- sig-api-machinery
 title: Graduate Server-side Get and Partial Objects to GA
 ---
 # Graduate Server-side Get and Partial Objects to GA

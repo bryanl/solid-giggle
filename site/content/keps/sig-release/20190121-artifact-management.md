@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@brendandburns'
 creation-date: "2019-01-23"
+date: "2019-01-23T00:00:00Z"
+draft: false
 editor: '@brendandburns'
 last-updated: "2019-01-31"
 owning-sig: sig-release
@@ -15,6 +17,8 @@ reviewers:
 - '@justinsb'
 - '@dims'
 status: provisional
+tags:
+- sig-release
 title: Kubernetes Community Artifact Serving
 ---
 # Kubernetes Artifact Management

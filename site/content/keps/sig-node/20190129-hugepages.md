@@ -6,6 +6,8 @@ authors:
 - '@sjenning'
 - '@PiotrProkop'
 creation-date: "2019-01-29"
+date: "2019-01-29T00:00:00Z"
+draft: false
 editor: Derek Carr
 last-updated: "2019-03-05"
 owning-sig: sig-node
@@ -14,6 +16,8 @@ participating-sigs:
 reviewers:
 - '@vishnu'
 status: implemented
+tags:
+- sig-node
 title: HugePages
 ---
 # HugePages

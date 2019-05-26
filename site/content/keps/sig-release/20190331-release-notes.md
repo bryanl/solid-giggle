@@ -6,6 +6,8 @@ approvers:
 authors:
 - '@jeefy'
 creation-date: "2019-03-31"
+date: "2019-03-31T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-03-31"
 owning-sig: sig-release
@@ -16,6 +18,8 @@ reviewers:
 - '@spiffxp'
 - '@marpaia'
 status: provisional
+tags:
+- sig-release
 title: Release Notes Improvements
 ---
 # Release Notes Improvements

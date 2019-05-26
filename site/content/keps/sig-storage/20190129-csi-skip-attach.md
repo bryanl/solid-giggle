@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@jsafrane'
 creation-date: "2019-01-29"
+date: "2019-01-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-29"
 owning-sig: sig-storage
@@ -13,6 +15,8 @@ reviewers:
 - '@msau42'
 - '@saad-ali'
 status: implementable
+tags:
+- sig-storage
 title: Skip attach for non-attachable CSI volumes
 ---
 # Skip attach for non-attachable CSI volumes

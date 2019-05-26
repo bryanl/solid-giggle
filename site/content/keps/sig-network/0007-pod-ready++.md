@@ -5,6 +5,8 @@ approvers:
 authors:
 - freehan@
 creation-date: "2018-04-01"
+date: "2018-04-01T00:00:00Z"
+draft: false
 editor: freehan@
 last-updated: "2018-04-01"
 owning-sig: sig-network
@@ -15,6 +17,8 @@ reviewers:
 - thockin@
 - dchen1107@
 status: provisional
+tags:
+- sig-network
 title: Pod Ready++
 ---
 # Pod Ready++

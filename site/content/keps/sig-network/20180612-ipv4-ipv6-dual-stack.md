@@ -8,6 +8,8 @@ authors:
 - khenidak@
 - feiskyer@
 creation-date: "2018-05-21"
+date: "2018-05-21T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-05-02"
 owning-sig: sig-network
@@ -16,6 +18,8 @@ participating-sigs:
 reviewers:
 - TBD
 status: implementable
+tags:
+- sig-network
 title: Kubernetes Dual Stack Support
 ---
 # IPv4/IPv6 Dual Stack

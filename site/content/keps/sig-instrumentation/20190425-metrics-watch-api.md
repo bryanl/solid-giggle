@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@x13n'
 creation-date: "2019-04-25"
+date: "2019-04-25T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-29"
 owning-sig: sig-instrumentation
@@ -13,6 +15,8 @@ participating-sigs:
 reviewers:
 - TBD
 status: provisional
+tags:
+- sig-instrumentation
 title: Watch support for metrics APIs
 ---
 # Metrics API watch support

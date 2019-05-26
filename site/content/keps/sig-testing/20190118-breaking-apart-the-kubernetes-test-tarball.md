@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@ixdy'
 creation-date: "2019-01-18"
+date: "2019-01-18T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-03-06"
 owning-sig: sig-testing
@@ -14,6 +16,8 @@ reviewers:
 - '@akutz'
 - '@amwat'
 status: implemented
+tags:
+- sig-testing
 title: Breaking apart the Kubernetes test tarball
 ---
 # Breaking apart the kubernetes test tarball

@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@leakingtapan'
 creation-date: "2018-11-27"
+date: "2018-11-27T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-27"
 owning-sig: sig-aws
@@ -12,6 +14,8 @@ reviewers:
 - '@d-nishi'
 - '@jsafrane'
 status: provisional
+tags:
+- sig-aws
 title: aws-ebs-csi-driver
 ---
 # AWS Elastic Block Store (EBS) CSI Driver

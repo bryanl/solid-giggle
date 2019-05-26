@@ -7,6 +7,8 @@ authors:
 - '@calebamiles'
 - '@jdumars'
 creation-date: "2018-09-08"
+date: "2018-09-08T00:00:00Z"
+draft: false
 last-updated: "2018-09-29"
 owning-sig: sig-pm
 participating-sigs:
@@ -17,6 +19,8 @@ reviewers:
 - '@spiffxp'
 - '@timothysc'
 status: implementable
+tags:
+- sig-pm
 title: Meta KEP Implementation
 ---
 # Meta KEP Implementation

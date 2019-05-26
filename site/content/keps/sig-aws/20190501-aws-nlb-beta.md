@@ -5,12 +5,16 @@ approvers:
 authors:
 - '@M00nF1sh'
 creation-date: "2019-05-01"
+date: "2019-05-01T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-05-01"
 owning-sig: sig-aws
 reviewers:
 - '@dnishi'
 status: implementable
+tags:
+- sig-aws
 title: graduate-aws-nlb-to-beta
 ---
 # Graduate AWS Network Load Balancer Support to beta

@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@wgliang'
 creation-date: "2019-02-22"
+date: "2019-02-22T00:00:00Z"
+draft: false
 last-updated: "2019-04-23"
 owning-sig: sig-scheduling
 reviewers:
@@ -12,6 +14,8 @@ reviewers:
 - '@k82cn'
 - '@Huang-Wei'
 status: provisional
+tags:
+- sig-scheduling
 title: Pod affinity/anti-affinity supports Gt and Lt operators
 ---
 # Pod affinity/anti-affinity supports Gt and Lt operators

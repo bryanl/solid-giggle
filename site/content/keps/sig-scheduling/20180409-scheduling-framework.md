@@ -5,6 +5,8 @@ authors:
 - '@bsalamat'
 - '@misterikkit'
 creation-date: "2018-04-09"
+date: "2018-04-09T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-30"
 owning-sig: sig-scheduling
@@ -13,6 +15,8 @@ reviewers:
 - '@k82cn'
 - '@ravisantoshgudimetla'
 status: implementable
+tags:
+- sig-scheduling
 title: Scheduling Framework
 ---
 # Scheduling Framework

@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@pwittrock'
 creation-date: "2018-11-13"
+date: "2018-11-13T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-11-13"
 owning-sig: sig-cli
@@ -12,6 +14,8 @@ reviewers:
 - '@juanvallejo'
 - '@seans3 '
 status: provisional
+tags:
+- sig-cli
 title: Data Driven Commands for Kubectl
 ---
 # data driven commands

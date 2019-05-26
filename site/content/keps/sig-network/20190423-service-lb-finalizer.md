@@ -6,6 +6,8 @@ approvers:
 authors:
 - '@MrHohn'
 creation-date: "2019-04-23"
+date: "2019-04-23T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-29"
 owning-sig: sig-network
@@ -17,6 +19,8 @@ reviewers:
 - '@jhorwit2'
 - '@jiatongw'
 status: implementable
+tags:
+- sig-network
 title: Finalizer Protection for Service LoadBalancers
 ---
 # Finalizer Protection for Service LoadBalancers

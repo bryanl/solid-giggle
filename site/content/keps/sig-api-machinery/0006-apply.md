@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@lavalamp'
 creation-date: "2018-03-28"
+date: "2018-03-28T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-03-28"
 owning-sig: sig-api-machinery
@@ -14,6 +16,8 @@ reviewers:
 - '@pwittrock'
 - '@erictune'
 status: implementable
+tags:
+- sig-api-machinery
 title: Apply
 ---
 # Apply

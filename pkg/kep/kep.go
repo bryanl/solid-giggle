@@ -15,8 +15,8 @@ import (
 )
 
 type Link struct {
-	Text string
-	URL  string
+	Text string `json:"text,omitempty"`
+	URL  string `json:"url,omitempty"`
 }
 
 type Links []Link
@@ -39,11 +39,38 @@ type KEP struct {
 func (k *KEP) String() (string, error) {
 	var buf bytes.Buffer
 
+	type Alias KEP
+
+	creationDate := k.CreationDate.Format("2006-01-02")
+	var lastUpdated string
+	if k.LastUpdated != nil {
+		lastUpdated = k.LastUpdated.Format("2006-01-02")
+	}
+
+	output := &struct {
+		CreationDate string    `json:"creation-date,omitempty"`
+		LastUpdated  string    `json:"last-updated,omitempty"`
+		Date         time.Time `json:"date,omitempty"`
+		Draft        bool      `json:"draft"`
+		Tags         []string  `json:"tags,omitempty"`
+		*Alias
+	}{
+		CreationDate: creationDate,
+		LastUpdated:  lastUpdated,
+		Date:         k.CreationDate,
+		Draft:        false,
+		Tags:         []string{k.OwningSIG},
+		Alias:        (*Alias)(k),
+	}
+
 	buf.WriteString(fmt.Sprintf("%s\n", sectionMarker))
-	data, err := yaml.Marshal(k)
+
+	data, err := yaml.Marshal(output)
 	if err != nil {
 		return "", err
 	}
+
+	fmt.Println(string(data))
 
 	buf.Write(data)
 	buf.WriteString(fmt.Sprintf("%s\n", sectionMarker))

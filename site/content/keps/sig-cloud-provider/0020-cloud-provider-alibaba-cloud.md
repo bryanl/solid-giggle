@@ -6,12 +6,16 @@ approvers:
 authors:
 - '@aoxn'
 creation-date: "2018-06-20"
+date: "2018-06-20T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-06-20"
 owning-sig: sig-cloud-provider
 reviewers:
 - '@andrewsykim'
 status: provisional
+tags:
+- sig-cloud-provider
 title: Cloud Provider for Alibaba Cloud
 ---
 # Cloud Provider for Alibaba Cloud

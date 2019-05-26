@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@verb'
 creation-date: "2019-02-12"
+date: "2019-02-12T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-13"
 owning-sig: sig-node
@@ -14,6 +16,8 @@ participating-sigs:
 reviewers:
 - '@yujuhong'
 status: implementable
+tags:
+- sig-node
 title: Ephemeral Containers
 ---
 # Ephemeral Containers

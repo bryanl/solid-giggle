@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@roycaihw'
 creation-date: "2019-02-07"
+date: "2019-02-07T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-13"
 owning-sig: sig-api-machinery
@@ -14,9 +16,11 @@ reviewers:
 - '@mbohlool'
 - '@sttts'
 see-also:
-- Text: Validation for CustomResources design doc
-  URL: https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/customresources-validation.md
+- text: Validation for CustomResources design doc
+  url: https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/customresources-validation.md
 status: implementable
+tags:
+- sig-api-machinery
 title: Publish CRD OpenAPI
 ---
 # Publish CRD OpenAPI

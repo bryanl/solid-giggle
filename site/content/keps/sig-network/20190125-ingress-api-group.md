@@ -5,11 +5,15 @@ approvers:
 authors:
 - '@bowei'
 creation-date: "2018-01-25"
+date: "2018-01-25T00:00:00Z"
+draft: false
 last-updated: "2018-04-25"
 owning-sig: sig-network
 reviewers:
 - '@aledbf'
 status: implementable
+tags:
+- sig-network
 title: Graduate Ingress to GA
 ---
 # Graduate Ingress to GA

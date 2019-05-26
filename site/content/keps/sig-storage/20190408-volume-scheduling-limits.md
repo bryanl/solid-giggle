@@ -7,6 +7,8 @@ authors:
 - '@jsafrane'
 - '@gnufied'
 creation-date: "2019-04-08"
+date: "2019-04-08T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-08"
 owning-sig: sig-storage
@@ -17,6 +19,8 @@ reviewers:
 - '@thockin'
 - '@msau42'
 status: implementable
+tags:
+- sig-storage
 title: KEP Template
 ---
 # Volume Scheduling Limits

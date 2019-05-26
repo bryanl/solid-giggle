@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@ddebroy'
 creation-date: "2019-04-18"
+date: "2019-04-18T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-18"
 owning-sig: sig-windows
@@ -11,6 +13,8 @@ reviewers:
 - '@patricklang'
 - '@liggitt'
 status: implementable
+tags:
+- sig-windows
 title: Windows security context API changes
 ---
 # Windows specific options in Pod Security Context and Container Security Context

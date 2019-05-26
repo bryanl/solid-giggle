@@ -5,6 +5,8 @@ authors:
 - '@calebamiles'
 - '@jbeda'
 creation-date: "2017-08-22"
+date: "2017-08-22T00:00:00Z"
+draft: false
 editor: '@jbeda'
 owning-sig: sig-architecture
 participating-sigs:
@@ -12,6 +14,8 @@ participating-sigs:
 reviewers:
 - '@timothysc'
 status: implementable
+tags:
+- sig-architecture
 title: Kubernetes Enhancement Proposal Process
 ---
 # Kubernetes Enhancement Proposal Process

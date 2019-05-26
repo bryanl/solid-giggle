@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@yuwenma'
 creation-date: "2019-03-16"
+date: "2019-03-16T00:00:00Z"
+draft: false
 editor: yuwenma
 last-updated: "2019-03-21"
 owning-sig: sig-release
@@ -13,6 +15,8 @@ participating-sigs:
 reviewers:
 - '@tallclair'
 status: implementable
+tags:
+- sig-release
 title: Rebase Kubernetes Main Master and Node Images to Distroless/static
 ---
 # Rebase Kubernetes Main Master and Node Images to Distroless/static

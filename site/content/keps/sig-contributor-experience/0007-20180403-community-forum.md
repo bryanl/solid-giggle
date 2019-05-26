@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@castrojo'
 creation-date: "2018-04-03"
+date: "2018-04-03T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-04-17"
 owning-sig: sig-contributor-experience
@@ -13,6 +15,8 @@ reviewers:
 - '@joebeda'
 - '@cblecker'
 status: implemented
+tags:
+- sig-contributor-experience
 title: A community forum for Kubernetes
 ---
 # A community forum for Kubernetes

@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@krmayankk'
 creation-date: "2018-12-29"
+date: "2018-12-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-12-29"
 owning-sig: sig-apps
@@ -12,6 +14,8 @@ participating-sigs:
 reviewers:
 - '@janetkuo'
 status: provisional
+tags:
+- sig-apps
 title: Implement maxUnavailable for StatefulSets
 ---
 # Implement maxUnavailable in StatefulSet

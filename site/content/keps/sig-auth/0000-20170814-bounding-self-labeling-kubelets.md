@@ -6,6 +6,8 @@ authors:
 - '@mikedanese'
 - '@liggitt'
 creation-date: "2017-08-14"
+date: "2017-08-14T00:00:00Z"
+draft: false
 last-updated: "2018-10-31"
 owning-sig: sig-auth
 participating-sigs:
@@ -15,6 +17,8 @@ reviewers:
 - '@saad-ali'
 - '@tallclair'
 status: implementable
+tags:
+- sig-auth
 title: Bounding Self-Labeling Kubelets
 ---
 # Bounding Self-Labeling Kubelets

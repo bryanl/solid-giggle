@@ -8,6 +8,8 @@ authors:
 - '@luxas'
 - '@sttts'
 creation-date: "2018-11-27"
+date: "2018-11-27T00:00:00Z"
+draft: false
 editor: '@luxas'
 last-updated: "2018-12-10"
 owning-sig: sig-cluster-lifecycle
@@ -24,6 +26,8 @@ reviewers:
 - '@andrewsykim'
 - '@cblecker'
 status: implementable
+tags:
+- sig-cluster-lifecycle
 title: Create a `k8s.io/component-base` repo
 ---
 # Create a `k8s.io/component-base` repo

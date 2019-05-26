@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@msau42'
 creation-date: "2019-02-04"
+date: "2019-02-04T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-03-01"
 owning-sig: sig-storage
@@ -15,6 +17,8 @@ reviewers:
 - '@saad-ali'
 - '@wojtek-t'
 status: implementable
+tags:
+- sig-storage
 title: Volume Scale and Performance Testing Plan
 ---
 # Volume Scale and Performance Testing Plan

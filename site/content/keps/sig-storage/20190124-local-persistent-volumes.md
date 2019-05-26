@@ -7,6 +7,8 @@ authors:
 - dhirajh
 - ianchakeres
 creation-date: "2019-01-24"
+date: "2019-01-24T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-24"
 owning-sig: sig-storage
@@ -17,6 +19,8 @@ reviewers:
 - jsafrane
 - gnufied
 status: implementable
+tags:
+- sig-storage
 title: Local Persistent Volumes
 ---
 # Local Persistent Volumes

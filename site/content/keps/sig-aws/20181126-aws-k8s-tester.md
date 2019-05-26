@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@gyuho'
 creation-date: "2018-11-26"
+date: "2018-11-26T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-11-29"
 owning-sig: sig-aws
@@ -12,6 +14,8 @@ reviewers:
 - '@d-nishi'
 - '@shyamjvs'
 status: provisional
+tags:
+- sig-aws
 title: aws-k8s-tester
 ---
 # aws-k8s-tester - kubetest plugin for AWS and EKS

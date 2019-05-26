@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@jbeda'
 creation-date: "2018-02-19"
+date: "2018-02-19T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-03-07"
 owning-sig: sig-contributor-experience
@@ -13,6 +15,8 @@ participating-sigs:
 reviewers:
 - '@castrojo'
 status: implementable
+tags:
+- sig-contributor-experience
 title: Contributor Site
 ---
 # Contributor Site

@@ -5,12 +5,16 @@ approvers:
 authors:
 - '@xuchao'
 creation-date: "2019-01-02"
+date: "2019-01-02T00:00:00Z"
+draft: false
 last-updated: "2019-01-04"
 owning-sig: sig-api-machinery
 reviewers:
 - '@deads2k'
 - '@lavalamp'
 status: provisional
+tags:
+- sig-api-machinery
 title: exposing hashed storage versions via the discovery API
 ---
 # Exposing storage versions in opaque values via the discovery API

@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@MrHohn'
 creation-date: "2019-01-18"
+date: "2019-01-18T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-11"
 owning-sig: sig-network
@@ -14,6 +16,8 @@ reviewers:
 - '@thockin'
 - '@bowei'
 status: implementable
+tags:
+- sig-network
 title: Configurable Pod DNS
 ---
 # Configurable Pod DNS

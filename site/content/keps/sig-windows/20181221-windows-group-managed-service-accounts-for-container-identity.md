@@ -8,6 +8,8 @@ authors:
 - '@jeremywx'
 - '@patricklang'
 creation-date: "2018-11-29"
+date: "2018-11-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-25"
 owning-sig: sig-windows
@@ -22,6 +24,8 @@ reviewers:
 - '@yujuhong'
 - '@patricklang'
 status: implementable
+tags:
+- sig-windows
 title: Windows Group Managed Service Accounts for Container Identity
 ---
 # Windows Group Managed Service Accounts for Container Identity

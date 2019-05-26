@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@ingvagabund'
 creation-date: "2018-04-30"
+date: "2018-04-30T00:00:00Z"
+draft: false
 last-updated: "2018-05-02"
 owning-sig: sig-node
 participating-sigs:
@@ -13,6 +15,8 @@ reviewers:
 - '@sjenning'
 - '@derekwaynecarr'
 status: provisional
+tags:
+- sig-node
 title: Protomote sysctl annotations to fields
 ---
 # Promote sysctl annotations to fields

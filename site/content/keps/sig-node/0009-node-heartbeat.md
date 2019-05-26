@@ -6,6 +6,8 @@ authors:
 - '@wojtek-t'
 - with input from @bgrant0607, @dchen1107, @yujuhong, @lavalamp
 creation-date: "2018-04-27"
+date: "2018-04-27T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-04-27"
 owning-sig: sig-node
@@ -17,6 +19,8 @@ reviewers:
 - '@deads2k'
 - '@lavalamp'
 status: implementable
+tags:
+- sig-node
 title: Efficient Node Heartbeat
 ---
 # Efficient Node Heartbeats

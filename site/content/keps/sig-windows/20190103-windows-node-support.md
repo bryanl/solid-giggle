@@ -11,6 +11,8 @@ authors:
 - '@michmike'
 - '@daschott'
 creation-date: "2018-11-29"
+date: "2018-11-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-03-06"
 owning-sig: sig-windows
@@ -23,6 +25,8 @@ reviewers:
 - sig-testing
 - sig-release
 status: implemented
+tags:
+- sig-windows
 title: Windows node support
 ---
 # Windows node support

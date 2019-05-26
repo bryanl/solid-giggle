@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@prameshj'
 creation-date: "2018-10-05"
+date: "2018-10-05T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-25"
 owning-sig: sig-network
@@ -16,6 +18,8 @@ reviewers:
 - '@johnbelamaric'
 - '@sdodson'
 status: implemented
+tags:
+- sig-network
 title: NodeLocal DNS Cache
 ---
 # NodeLocal DNS Cache

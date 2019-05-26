@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@kevtaylor'
 creation-date: "2018-10-29"
+date: "2018-10-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-03-04"
 owning-sig: sig-storage
@@ -16,6 +18,8 @@ reviewers:
 - '@thockin'
 - '@liggitt'
 status: implementable
+tags:
+- sig-storage
 title: Volume Subpath Env Expansion
 ---
 # Volume Subpath Env Expansion

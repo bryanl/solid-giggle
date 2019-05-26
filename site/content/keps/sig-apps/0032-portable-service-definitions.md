@@ -6,6 +6,8 @@ approvers:
 authors:
 - '@mattfarina'
 creation-date: "2018-11-13"
+date: "2018-11-13T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-11-19"
 owning-sig: sig-apps
@@ -19,6 +21,8 @@ reviewers:
 - '@prydonius'
 - '@kow3ns'
 status: provisional
+tags:
+- sig-apps
 title: Portable Service Definitions
 ---
 # Portable Service Definitions

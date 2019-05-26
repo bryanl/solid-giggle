@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@apelisse'
 creation-date: "2018-06-21"
+date: "2018-06-21T00:00:00Z"
+draft: false
 editor: apelisse
 last-updated: "2018-06-21"
 owning-sig: sig-api-machinery
@@ -14,6 +16,8 @@ reviewers:
 - '@lavalamp'
 - '@deads2k'
 status: implementable
+tags:
+- sig-api-machinery
 title: Dry-run
 ---
 # Kubernetes Dry-run

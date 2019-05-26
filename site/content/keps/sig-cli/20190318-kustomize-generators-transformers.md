@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@pwittrock'
 creation-date: "2019-03-25"
+date: "2019-03-25T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-30"
 owning-sig: sig-cli
@@ -11,6 +13,8 @@ reviewers:
 - '@droot'
 - '@sethpollack'
 status: implementable
+tags:
+- sig-cli
 title: Kustomize Generators and Transformers
 ---
 # Kustomize Generators and Transformers

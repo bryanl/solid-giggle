@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@micahhausler'
 creation-date: "2019-01-28"
+date: "2019-01-28T00:00:00Z"
+draft: false
 editor: '@micahhausler'
 last-updated: "2019-01-28"
 owning-sig: sig-aws
@@ -13,6 +15,8 @@ reviewers:
 - '@justinsb'
 - '@mcrute'
 status: provisional
+tags:
+- sig-aws
 title: Custom endpoints support for AWS Cloud Provider
 ---
 # Custom endpoint support for AWS Cloud Provider

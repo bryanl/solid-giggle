@@ -5,6 +5,8 @@ authors:
 - '@pwittrock'
 - '@monopole'
 creation-date: "2018-05-05"
+date: "2018-05-05T00:00:00Z"
+draft: false
 editor: '@droot'
 last-updated: "2019-01-09"
 owning-sig: sig-cli
@@ -13,6 +15,8 @@ participating-sigs:
 reviewers:
 - '@droot'
 status: implemented
+tags:
+- sig-cli
 title: Kustomize
 ---
 # Kustomize

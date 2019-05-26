@@ -6,6 +6,8 @@ authors:
 - '@MikeSpreitzer'
 - '@yue9944882'
 creation-date: "2019-02-28"
+date: "2019-02-28T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-28"
 owning-sig: sig-api-machinery
@@ -15,6 +17,8 @@ reviewers:
 - '@deads2k'
 - '@lavalamp'
 status: implementable
+tags:
+- sig-api-machinery
 title: Priority and Fairness for API Server Requests
 ---
 # Priority and Fairness for API Server Requests

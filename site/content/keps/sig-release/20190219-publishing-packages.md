@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@hoegaarden'
 creation-date: "2019-02-19"
+date: "2019-02-19T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-27"
 owning-sig: sig-release
@@ -18,6 +20,8 @@ reviewers:
 - '@ixdy'
 - “@neolit123”
 status: provisional
+tags:
+- sig-release
 title: Publishing kubernetes packages
 ---
 # Publishing kubernetes packages

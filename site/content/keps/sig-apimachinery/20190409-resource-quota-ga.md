@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@ravisantoshgudimetla'
 creation-date: "2019-04-23"
+date: "2019-04-23T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-23"
 owning-sig: sig-apimachinery
@@ -18,6 +20,8 @@ reviewers:
 - “@sjenning”
 - '@vikaschoudhary16'
 status: implementable
+tags:
+- sig-apimachinery
 title: graduate-resourcequotascopeselectors-to-stable
 ---
 # Graduate ResourceQuotaScopeSelector to stable

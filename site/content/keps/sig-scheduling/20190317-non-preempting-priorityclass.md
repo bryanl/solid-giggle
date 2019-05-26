@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@vllry'
 creation-date: "2019-03-17"
+date: "2019-03-17T00:00:00Z"
+draft: false
 editor: Vallery Lancey
 last-updated: "2019-03-28"
 owning-sig: sig-scheduling
@@ -13,6 +15,8 @@ reviewers:
 - k82cn
 - wgliang
 status: implementable
+tags:
+- sig-scheduling
 title: Add NonPreempting Option For PriorityClasses
 ---
 # Allow PriorityClasses To Be Non-Preempting

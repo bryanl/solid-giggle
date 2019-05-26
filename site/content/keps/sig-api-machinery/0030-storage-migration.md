@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@xuchao'
 creation-date: "2018-08-06"
+date: "2018-08-06T00:00:00Z"
+draft: false
 last-updated: "2019-03-19"
 owning-sig: sig-api-machinery
 reviewers:
@@ -12,6 +14,8 @@ reviewers:
 - '@yliaog'
 - '@lavalamp'
 status: implementable
+tags:
+- sig-api-machinery
 title: Migrating API objects to latest storage version
 ---
 # Migrating API objects to latest storage version

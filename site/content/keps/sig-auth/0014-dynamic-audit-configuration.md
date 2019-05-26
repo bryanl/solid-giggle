@@ -6,6 +6,8 @@ approvers:
 authors:
 - '@pbarker'
 creation-date: "2018-05-18"
+date: "2018-05-18T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-07-31"
 owning-sig: sig-auth
@@ -17,6 +19,8 @@ reviewers:
 - '@caesarxuchao'
 - '@liggitt'
 status: implementable
+tags:
+- sig-auth
 title: Dynamic Audit Configuration
 ---
 # Dynamic Audit Control

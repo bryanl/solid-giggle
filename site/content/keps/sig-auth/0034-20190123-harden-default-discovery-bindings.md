@@ -6,6 +6,8 @@ approvers:
 authors:
 - '@dekkagaijin'
 creation-date: "2019-01-28"
+date: "2019-01-28T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-31"
 owning-sig: sig-auth
@@ -17,6 +19,8 @@ reviewers:
 - '@tallclair'
 - '@deads2k'
 status: implementable
+tags:
+- sig-auth
 title: Harden Default RBAC Discovery ClusterRole(Binding)s
 ---
 # Harden Default RBAC Discovery ClusterRole(Binding)s

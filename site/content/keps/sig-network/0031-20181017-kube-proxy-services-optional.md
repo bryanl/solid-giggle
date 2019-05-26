@@ -4,12 +4,16 @@ approvers:
 authors:
 - '@bradhoekstra'
 creation-date: "2018-10-17"
+date: "2018-10-17T00:00:00Z"
+draft: false
 editor: '@bradhoekstra'
 last-updated: "2018-11-12"
 owning-sig: sig-network
 reviewers:
 - '@freehan'
 status: provisional
+tags:
+- sig-network
 title: Make kube-proxy service abstraction optional
 ---
 # Make kube-proxy service abstraction optional

@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@egernst'
 creation-date: "2019-02-26"
+date: "2019-02-26T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-12"
 owning-sig: sig-node
@@ -16,6 +18,8 @@ reviewers:
 - '@derekwaynecarr'
 - '@dchen1107'
 status: implementable
+tags:
+- sig-node
 title: Pod Overhead
 ---
 # Pod Overhead

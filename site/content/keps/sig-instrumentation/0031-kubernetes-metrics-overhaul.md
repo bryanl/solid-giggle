@@ -6,12 +6,16 @@ authors:
 - '@brancz'
 - '@ehashman'
 creation-date: "2018-11-06"
+date: "2018-11-06T00:00:00Z"
+draft: false
 last-updated: "2019-03-21"
 owning-sig: sig-instrumentation
 reviewers:
 - '@piosz'
 - '@DirectXMan12'
 status: implementable
+tags:
+- sig-instrumentation
 title: Kubernetes Metrics Overhaul
 ---
 # Kubernetes Metrics Overhaul

@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@janetkuo'
 creation-date: "2018-08-16"
+date: "2018-08-16T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-08-16"
 owning-sig: sig-apps
@@ -13,6 +15,8 @@ reviewers:
 - '@enisoc'
 - '@tnozicka'
 status: provisional
+tags:
+- sig-apps
 title: TTL After Finished
 ---
 # TTL After Finished Controller

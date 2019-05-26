@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@mortent'
 creation-date: "2019-04-12"
+date: "2019-04-12T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-04-12"
 owning-sig: sig-apps
@@ -15,6 +17,8 @@ reviewers:
 - '@kow3ns'
 - '@janetkuo'
 status: implementable
+tags:
+- sig-apps
 title: pdb-support-for-custom-resources-with-scale-subresource
 ---
 # PDB support for custom resources with scale subresource

@@ -5,6 +5,8 @@ authors:
 - '@davidz627'
 - '@jsafrane'
 creation-date: "2019-01-29"
+date: "2019-01-29T00:00:00Z"
+draft: false
 editor: '@davidz627'
 last-updated: "2019-01-29"
 owning-sig: sig-storage
@@ -15,6 +17,8 @@ reviewers:
 - '@saadali'
 - '@msau42'
 status: implementable
+tags:
+- sig-storage
 title: In-tree Storage Plugin to CSI Migration
 ---
 # In-tree Storage Plugin to CSI Migration Design Doc

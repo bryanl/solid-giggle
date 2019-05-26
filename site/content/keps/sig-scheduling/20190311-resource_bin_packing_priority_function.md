@@ -3,6 +3,8 @@ approvers:
 - '@k82cn'
 - '@bsalamat'
 creation-date: "2019-03-11"
+date: "2019-03-11T00:00:00Z"
+draft: false
 last-updated: "2019-05-01"
 owning-sig: sig-scheduling
 participating-sigs:
@@ -12,6 +14,8 @@ reviewers:
 - '@Huang-Wei'
 - '@bsalamat'
 status: implementable
+tags:
+- sig-scheduling
 title: Extending RequestedToCapacityRatio Priority Function to support Resource Bin
   Packing of Extended Resources - "@sudeshsh"
 ---

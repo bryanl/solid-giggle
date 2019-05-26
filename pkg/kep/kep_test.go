@@ -1,6 +1,7 @@
 package kep
 
 import (
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"testing"
@@ -9,6 +10,38 @@ import (
 	"github.com/alecthomas/assert"
 	"github.com/stretchr/testify/require"
 )
+
+func TestKEP_String(t *testing.T) {
+
+	creationDate := time.Date(2018, time.April, 15, 0, 0, 0, 0, time.UTC)
+	lastUpdated := time.Date(2018, time.April, 24, 0, 0, 0, 0, time.UTC)
+
+	kep := &KEP{
+		Title:             "title",
+		Authors:           []string{"author"},
+		OwningSIG:         "sig-kep",
+		ParticipatingSIGs: []string{"sig-other"},
+		Reviewers:         []string{"reviewer"},
+		Approvers:         []string{"approver"},
+		Editor:            "TDB",
+		CreationDate:      creationDate,
+		LastUpdated:       &lastUpdated,
+		Status:            "status",
+		SeeAlso: Links{
+			{Text: "text", URL: "http://example.com"},
+		},
+		Content: "content",
+	}
+
+	got, err := kep.String()
+	require.NoError(t, err)
+
+	expectedPath := filepath.Join("testdata", "kep_string.md")
+	expected, err := ioutil.ReadFile(expectedPath)
+	require.NoError(t, err)
+
+	assert.Equal(t, string(expected), got)
+}
 
 func TestRead(t *testing.T) {
 	source := filepath.Join("testdata", "20180415-crds-to-ga.md")

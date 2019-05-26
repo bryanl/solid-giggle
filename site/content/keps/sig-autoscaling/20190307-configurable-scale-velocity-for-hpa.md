@@ -4,12 +4,16 @@ approvers:
 authors:
 - '@gliush'
 creation-date: "2019-03-07"
+date: "2019-03-07T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-03-07"
 owning-sig: sig-autoscaling
 reviewers:
 - TBD
 status: provisional
+tags:
+- sig-autoscaling
 title: Configurable scale up/down velocity for HPA
 ---
 # Configurable scale up/down velocity for HPA

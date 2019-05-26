@@ -6,6 +6,8 @@ approvers:
 authors:
 - '@directxman12'
 creation-date: "2018-04-19"
+date: "2018-04-19T00:00:00Z"
+draft: false
 editor: '@directxman12'
 owning-sig: sig-autoscaling
 participating-sigs:
@@ -14,6 +16,8 @@ reviewers:
 - '@brancz'
 - '@maciekpytel'
 status: implemented
+tags:
+- sig-autoscaling
 title: Enhance HPA Metrics Specificity
 ---
 # Enhance HPA Metrics Specificity

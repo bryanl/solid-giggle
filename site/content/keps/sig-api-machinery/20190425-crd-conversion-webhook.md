@@ -6,6 +6,8 @@ authors:
 - '@mbohlool'
 - '@erictune'
 creation-date: "2019-04-25"
+date: "2019-04-25T00:00:00Z"
+draft: false
 last-updated: "2019-04-25"
 owning-sig: sig-api-machinery
 reviewers:
@@ -14,6 +16,8 @@ reviewers:
 - '@sttts'
 - '@liggitt'
 status: implemented
+tags:
+- sig-api-machinery
 title: CustomResourceDefinition Conversion Webhook
 ---
 # CustomResourceDefinition Conversion Webhook

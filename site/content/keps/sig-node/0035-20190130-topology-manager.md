@@ -7,6 +7,8 @@ authors:
 - '@balajismaniam'
 - '@lmdaly'
 creation-date: "2019-01-30"
+date: "2019-01-30T00:00:00Z"
+draft: false
 editor: Louise Daly
 last-updated: "2019-01-30"
 owning-sig: sig-node
@@ -18,6 +20,8 @@ reviewers:
 - '@jeremyeder'
 - '@RenaudWasTaken'
 status: implementable
+tags:
+- sig-node
 title: Node Topology Manager
 ---
 # Node Topology Manager

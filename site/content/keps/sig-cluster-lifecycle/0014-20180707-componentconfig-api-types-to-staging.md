@@ -7,6 +7,8 @@ authors:
 - '@luxas'
 - '@sttts'
 creation-date: "2018-07-07"
+date: "2018-07-07T00:00:00Z"
+draft: false
 editor: '@luxas'
 last-updated: "2018-08-10"
 owning-sig: sig-cluster-lifecycle
@@ -23,6 +25,8 @@ reviewers:
 - '@stewart-yu'
 - '@dixudx'
 status: implementable
+tags:
+- sig-cluster-lifecycle
 title: Moving ComponentConfig API types to staging repos
 ---
 # Moving ComponentConfig API types to staging repos

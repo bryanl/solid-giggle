@@ -4,6 +4,8 @@ approvers:
 authors:
 - '@bsalamat'
 creation-date: "2019-01-31"
+date: "2019-01-31T00:00:00Z"
+draft: false
 editor: Babak Salamat
 last-updated: "2019-01-31"
 owning-sig: sig-scheduling
@@ -12,6 +14,8 @@ participating-sigs:
 reviewers:
 - '@k82cn'
 status: implementable
+tags:
+- sig-scheduling
 title: Promote Pod Priority and Preemption to GA
 ---
 # Promote Pod Priority and Preemption to GA

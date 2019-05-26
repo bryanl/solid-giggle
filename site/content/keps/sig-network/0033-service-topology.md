@@ -4,12 +4,16 @@ approvers:
 authors:
 - '@m1093782566'
 creation-date: "2018-10-24"
+date: "2018-10-24T00:00:00Z"
+draft: false
 last-updated: "2018-12-03"
 owning-sig: sig-network
 reviewers:
 - '@thockin'
 - '@johnbelamaric'
 status: implementable
+tags:
+- sig-network
 title: Topology-aware service routing
 ---
 # Topology-aware service routing

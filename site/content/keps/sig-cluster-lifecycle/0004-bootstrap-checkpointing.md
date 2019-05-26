@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@timothysc'
 creation-date: "2017-10-20"
+date: "2017-10-20T00:00:00Z"
+draft: false
 editor: '@timothysc'
 last-updated: "2018-01-23"
 owning-sig: sig-cluster-lifecycle
@@ -15,6 +17,8 @@ reviewers:
 - '@luxas'
 - '@roberthbailey'
 status: implemented
+tags:
+- sig-cluster-lifecycle
 title: Kubernetes Bootstrap Checkpointing Proposal
 ---
 # Kubernetes Bootstrap Checkpointing Proposal

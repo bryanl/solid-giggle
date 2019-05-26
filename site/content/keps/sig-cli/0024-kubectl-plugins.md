@@ -5,6 +5,8 @@ approvers:
 authors:
 - '@juanvallejo'
 creation-date: "2018-07-24"
+date: "2018-07-24T00:00:00Z"
+draft: false
 editor: juanvallejo
 last-updated: "2010-02-26"
 owning-sig: sig-cli
@@ -16,6 +18,8 @@ reviewers:
 - '@liggitt'
 - '@soltysh'
 status: implemented
+tags:
+- sig-cli
 title: Kubectl Plugins
 ---
 # Kubectl Plugins

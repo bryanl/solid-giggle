@@ -5,12 +5,16 @@ approvers:
 authors:
 - '@vllry'
 creation-date: "2018-03-24"
+date: "2018-03-24T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-04-02"
 owning-sig: sig-network
 reviewers:
 - '@andrewsykim'
 status: implementable
+tags:
+- sig-network
 title: Remove kube-proxy's automatic clean up logic
 ---
 # Remove kube-proxy's automatic clean up logic

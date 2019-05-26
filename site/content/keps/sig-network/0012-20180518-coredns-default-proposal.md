@@ -5,6 +5,8 @@ authors:
 - '@johnbelamaric'
 - '@rajansandeep'
 creation-date: "2018-05-18"
+date: "2018-05-18T00:00:00Z"
+draft: false
 editor: '@rajansandeep'
 last-updated: "2018-05-18"
 owning-sig: sig-network
@@ -14,6 +16,8 @@ reviewers:
 - '@bowei'
 - '@thockin'
 status: provisional
+tags:
+- sig-network
 title: Switch CoreDNS to the default DNS
 ---
 # Switch CoreDNS to the default DNS

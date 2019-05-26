@@ -5,12 +5,16 @@ approvers:
 authors:
 - '@wojtek-t'
 creation-date: "2019-02-06"
+date: "2019-02-06T00:00:00Z"
+draft: false
 owning-sig: sig-apimachinery
 participating-sigs:
 - sig-scalability
 reviewers:
 - '@jpbetz'
 status: implementable
+tags:
+- sig-apimachinery
 title: Watch Bookmark
 ---
 # Watch bookmark

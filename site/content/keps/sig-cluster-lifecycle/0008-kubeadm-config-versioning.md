@@ -4,12 +4,16 @@ approvers:
 authors:
 - '@liztio'
 creation-date: "2018-04-12"
+date: "2018-04-12T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-04-12"
 owning-sig: sig-cluster-lifecycle
 reviewers:
 - '@timothysc'
 status: draft
+tags:
+- sig-cluster-lifecycle
 title: Kubeadm Config versioning
 ---
 # Kubeadm Config Versioning

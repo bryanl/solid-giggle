@@ -8,6 +8,8 @@ authors:
 - '@hogepodge'
 - '@andrewsykim'
 creation-date: "2018-07-31"
+date: "2018-07-31T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-02-12"
 owning-sig: sig-cloud-provider
@@ -25,6 +27,8 @@ reviewers:
 - '@hogepodge'
 - '@jagosan'
 status: implementable
+tags:
+- sig-cloud-provider
 title: Cloud Provider Documentation
 ---
 ## Documentation Requirements for Kubernetes Cloud Providers

@@ -5,12 +5,16 @@ authors:
 - '@bradhoekstra'
 - '@kongslund'
 creation-date: "2018-09-25"
+date: "2018-09-25T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2018-09-25"
 owning-sig: sig-apps
 reviewers:
 - TBD
 status: provisional
+tags:
+- sig-apps
 title: Optional Service Environment Variables
 ---
 # Optional Service Environment Variables

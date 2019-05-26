@@ -7,6 +7,8 @@ approvers:
 authors:
 - '@dstrebel'
 creation-date: "2019-01-29"
+date: "2019-01-29T00:00:00Z"
+draft: false
 editor: TBD
 last-updated: "2019-01-29"
 owning-sig: sig-cloud-provider
@@ -18,6 +20,8 @@ reviewers:
 - '@khenidak'
 - '@feiskyer'
 status: provisional
+tags:
+- sig-cloud-provider
 title: Cloud Provider for Microsoft Azure
 ---
 # Cloud Provider for Microsoft Azure
