@@ -20,29 +20,6 @@
     </article>
 </div>
 
-{{ if or .Next .Prev }}
-<div class="bg-light py-5">
-    <div class="container">
-        <h2 class="text-center">Read next</h2>
-
-        <div class="row">
-            <div class="col-md-6 text-center">
-                {{ if .Prev }}
-                Previous Post:
-                <a href="{{ .Prev.URL | relURL}}">{{ .Prev.Title | markdownify }}</a>
-                {{ end }}
-            </div>
-            <div class="col-md-6 text-center">
-                {{ if .Next }}
-                Next Post:
-                <a href="{{ .Next.URL | relURL }}">{{ .Next.Title | markdownify }}</a>
-                {{ end }}
-            </div>
-        </div>
-    </div>
-</div>
-{{ end }}
-
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
 <div class="container mt-5">
