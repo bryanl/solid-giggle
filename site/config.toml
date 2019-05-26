@@ -9,11 +9,11 @@ pygmentsUseClasses = true
 googleAnalytics = "UA-140853487-1"
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 100
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 100
 
   [[menu.main]]
     identifier = "tags"
