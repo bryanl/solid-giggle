@@ -1,4 +1,4 @@
-FROM debian:stable AS hugo-builder
+FROM debian:9 AS hugo-builder
 
 LABEL description="Docker container for building keps static site"
 LABEL maintainer="Bryan Liles <lilesb@vmware.com>"
