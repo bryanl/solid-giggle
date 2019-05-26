@@ -1,4 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "KEP Viewer"
+theme = "kep"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 100
+
+  [[menu.main]]
+    identifier = "keps"
+    name = "KEPs"
+    url = "/keps/"
+    weight = 110
