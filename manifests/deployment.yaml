@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kepviewer
+spec:
+  selector:
+    matchLabels:
+      app: kepviewer
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: kepviewer
+    spec:
+      containers:
+      - name: kepviewer
+        image: kepviewer
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"

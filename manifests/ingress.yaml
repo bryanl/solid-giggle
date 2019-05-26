@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kepviewer
+  annotations:
+    kubernetes.io/tls-acme: "true"
+    certmanager.k8s.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - secretName: kepviewer
+    hosts:
+    - keps.bryanl.dev
+  rules:
+  - host: keps.bryanl.dev
+    http:
+      paths:
+      - backend:
+          serviceName: kepviewer
+          servicePort: 80

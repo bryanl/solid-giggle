@@ -6,3 +6,9 @@ build:
 
 publish:
 	docker push $(BASE):$(VERSION)
+
+current-version:
+	@echo $(VERSION)
+
+set-image:
+	kubectl kustomize set image kepviewer=harbor.bryanl.dev/playground/kepviewer:$(VERSION)

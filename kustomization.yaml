@@ -1,0 +1,11 @@
+resources:
+- manifests/deployment.yaml
+- manifests/service.yaml
+- manifests/ingress.yaml
+
+images:
+- name: kepviewer
+  newName: harbor.bryanl.dev/playground/kepsview
+  newTag: 62ce00f
+
+namespace: kepviewer
