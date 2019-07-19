@@ -6,6 +6,6 @@ resources:
 images:
 - name: kepviewer
   newName: harbor.bryanl.dev/playground/kepsview
-  newTag: fd0f845
+  newTag: 353d6fe
 
 namespace: kepviewer
